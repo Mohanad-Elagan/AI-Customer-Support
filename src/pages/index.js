@@ -4,7 +4,6 @@ import { TextField, Button, List, ListItem, ListItemText } from '@mui/material';
 import { useTranslation } from 'react-i18next';
 import Chat from '../components/Chat';
 import Feedback from '../components/Feedback';
-import '../i18n'; // Import the i18n configuration
 
 export default function Home() {
   const { data: session } = useSession();
